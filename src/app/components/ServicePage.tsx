@@ -14,7 +14,7 @@ const ServicePage = () => {
                 <h1 className="title-font text-3xl mb-4 font-bold text-black ">
                   Our Services
                 </h1>
-                <p className="mb-16 text-xl">
+                <p className="mb-16 text-lg">
                   We envision a future where businesses seamlessly.
                 </p>
                 <div className="text-blue-500 text-lg hover:underline">

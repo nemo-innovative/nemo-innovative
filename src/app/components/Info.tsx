@@ -2,7 +2,7 @@ const Info = () => {
   return (
     <>
       <div className="bg-gray-100">
-        <div className="container mx-auto w-full max-w-screen-xl py-4 px-5 flex flex-wrap flex-col sm:flex-row items-center">
+        <div className="container mx-auto w-full max-w-screen-xl py-1 px-5 flex flex-wrap flex-col sm:flex-row items-center">
           <p className="text-black text-sm text-center sm:text-left mb-2 sm:mb-0">
             +977 9767220320 |
             <a
