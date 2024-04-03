@@ -4,7 +4,7 @@ const Content = () => {
   const slides = ["/1pic.png", "/2pic.png", "/3pic.png"];
   return (
     <>
-      <div className="container px-5 py-24 mx-auto">
+      <div className="mx-auto w-full max-w-screen-xl container px-5 py-24">
         <div className="flex flex-col md:flex-row">
           <div className="md:w-3/4 md:mr-0 mb-6 md:mb-0 ">
             <div className="felx justify-center items-center h-full bg-white rounded-xl">

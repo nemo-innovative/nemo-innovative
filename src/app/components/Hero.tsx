@@ -9,7 +9,7 @@ const Hero = () => {
         backgroundPosition: "right",
       }}
     >
-      <div className="container px-5 py-24 mx-auto">
+      <div className="container px-5 py-24 mx-auto w-full max-w-screen-xl">
         <div className="flex flex-wrap -m-12">
           <div className="p-12 md:w-1/2 flex flex-col items-start">
             <h2 className="text-2xl sm:text-6xl title-font font-medium text-white mt-24 mb-4 hover:text-[#0d7abf]">

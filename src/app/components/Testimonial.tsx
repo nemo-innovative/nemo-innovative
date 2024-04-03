@@ -4,7 +4,7 @@ const Testimonial = () => {
   return (
     <>
       <section id="about" className="text-gray-600 body-font bg-[#76ABD1]">
-        <div className="container px-5 py-24 mx-auto">
+        <div className="container px-5 py-24 mx-auto w-full max-w-screen-xl">
           <h1 className="flex justify-center title-font text-3xl  mb-12 font-bold text-black">
             What other say about us!
           </h1>

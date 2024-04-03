@@ -3,7 +3,7 @@ import Image from "next/image";
 const Customer = () => {
   return (
     <>
-      <div className="my-16 flex justify-center">
+      <div className="my-16 flex justify-center mx-auto w-full max-w-screen-xl">
         <h1 className="title-font text-3xl mb-4 font-bold text-black">
           Our Valued Clients
         </h1>

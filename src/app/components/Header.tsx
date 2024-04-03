@@ -1,7 +1,7 @@
 const Header = () => {
   return (
     <header className="text-black-200 body-font">
-      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <div className="container mx-auto w-full max-w-screen-xl flex flex-wrap p-5 flex-col md:flex-row items-center">
         <a href="/">
           <img src="/logo1.png" alt="logo" className="w-16 h-16" />
         </a>
