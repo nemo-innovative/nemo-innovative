@@ -3,7 +3,7 @@ const Info = () => {
     <>
       <div className="bg-gray-100">
         <div className="container mx-auto w-full max-w-screen-xl py-4 px-5 flex flex-wrap flex-col sm:flex-row items-center">
-          <img src="/phone.png" className="h-5 w-5 ml-5" alt="" />
+          <img src="/phone.png" className="h-5 w-5" alt="" />
           <div className="text-black text-sm text-center sm:text-left mb-2 sm:mb-0">
             <p>+977 9767220320</p>
           </div>
