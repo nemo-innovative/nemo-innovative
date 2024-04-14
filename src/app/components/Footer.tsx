@@ -3,10 +3,14 @@ const Footer = () => {
     <>
       <footer className="bg-[#0D7ABF]">
         <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-          <div className="md:flex md:justify-between">
+          <div className="md:flex justify-between">
             <div className="mb-6 md:mb-0">
               <a href="" className="flex items-center">
-                <img src="/logo.png" className="h-16 w-16" alt="Nemo Logo" />
+                <img
+                  src="/white-nemo.png"
+                  className="h-36 w-36"
+                  alt="Nemo Logo"
+                />
               </a>
             </div>
             <div className="flex justify-center gap-8 sm:gap-6 sm:grid-cols-3">
