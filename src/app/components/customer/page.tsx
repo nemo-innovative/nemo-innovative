@@ -1,6 +1,32 @@
+"use client";
+
 import Image from "next/image";
 
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import React, { useState } from "react";
+import Slider from "react-slick";
+
 const Customer = () => {
+  const [settings] = useState({
+    dots: false,
+    infinite: true,
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    autoplay: true,
+    speed: 9000,
+    autoplaySpeed: 0,
+    cssEase: "linear",
+  });
+  const logos = [
+    "/clients/Artboard 1@2x.png",
+    "/clients/kalinchowk.png",
+    "/clients/luxe.png",
+    "/clients/mavefund.png",
+    "/clients/manjushree.png",
+    "/clients/uandme.png",
+    // Add more logos here
+  ];
   return (
     <>
       <div className="my-16 flex justify-center mx-auto w-full max-w-screen-xl">
@@ -8,51 +34,16 @@ const Customer = () => {
           Our Valued Clients
         </h1>
       </div>
-      <div className="w-full flex justify-center mb-20 overflow-x-auto">
-        <ul className="flex flex-wrap justify-center">
-          <li className="mx-8 my-4">
-            <Image
-              src="/clients/Artboard 1@2x.png"
-              alt=""
-              width={150}
-              height={150}
-            />
-          </li>
-          <li className="mx-8 my-4">
-            <Image
-              src="/clients/kalinchowk.png"
-              alt=""
-              width={150}
-              height={150}
-            />
-          </li>
-          <li className="mx-8 my-4">
-            <Image src="/clients/luxe.png" alt="" width={150} height={150} />
-          </li>
-          <li className="mx-8 my-4">
-            <Image
-              src="/clients/mavefund.png"
-              alt=""
-              width={150}
-              height={150}
-            />
-          </li>
-          <li className="mx-8 my-4">
-            <Image
-              src="/clients/manjushree.png"
-              alt=""
-              width={150}
-              height={150}
-            />
-          </li>
-          <li className="mx-8 my-4">
-            <Image src="/clients/uandme.png" alt="" width={150} height={150} />
-          </li>
-        </ul>
-      </div>
 
+      <Slider {...settings}>
+        {logos.map((logo, index) => (
+          <div key={index} className="container">
+            <Image src={logo} alt="logo" width={150} height={150} />
+          </div>
+        ))}
+      </Slider>
       <div>
-        <h1 className="flex justify-center title-font text-3xl mb-4 font-bold text-black">
+        <h1 className="flex justify-center title-font text-3xl mt-12 mb-4 font-bold text-black">
           Ready to dive into projects?
         </h1>
         <div className="flex justify-center text-xl">

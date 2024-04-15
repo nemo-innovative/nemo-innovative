@@ -10,9 +10,9 @@ const Content = () => {
             <div className="felx justify-center items-center h-full bg-white rounded-xl">
               <div className="w-full">
                 <Carousel>
-                  {slides.map((slide) => (
+                  {slides.map((slide, index) => (
                     // eslint-disable-next-line react/jsx-key
-                    <img src={slide} />
+                    <img key={index} src={slide} />
                   ))}
                 </Carousel>
               </div>
