@@ -1,9 +1,8 @@
 const Hero = () => {
   return (
     <section
-      className="w-full h-screen max-h-[32rem] p-24 relative overflow-hidden block z-10 bg-cover bg-no-repeat bg-center
-    bg-[url('https://media.discordapp.net/attachments/1222590290024730695/1226558174824239225/istockphoto-513247652-612x612_upscayl_4x_realesrgan-x4plus.png?ex=66253451&is=6612bf51&hm=1a2876cf56d02a49c034de9c9207396f4c6f7324916e07de0599fb377676bddf&=&format=webp&quality=lossless&width=1146&height=662')]
-"
+      className="w-full h-screen max-h-[36rem] p-24 relative overflow-hidden block z-10 bg-cover bg-no-repeat bg-center"
+      style={{ backgroundImage: `url('/hero.jpg')` }}
     >
       <div className="absolute inset-0 bg-gradient-to-r from-[#63A8D6] to-[#6FE388] opacity-80 mix-blend-multiply"></div>
       <div className="absolute container px-5  mx-auto w-full max-w-screen-xl">

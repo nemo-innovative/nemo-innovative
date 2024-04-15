@@ -11,34 +11,42 @@ const Customer = () => {
       <div className="w-full flex justify-center mb-20 overflow-x-auto">
         <ul className="flex flex-wrap justify-center">
           <li className="mx-8 my-4">
-            <Image src="/python.png" alt="" width={60} height={60} />
+            <Image
+              src="/clients/Artboard 1@2x.png"
+              alt=""
+              width={150}
+              height={150}
+            />
           </li>
           <li className="mx-8 my-4">
-            <Image src="/phone.png" alt="" width={60} height={60} />
+            <Image
+              src="/clients/kalinchowk.png"
+              alt=""
+              width={150}
+              height={150}
+            />
           </li>
           <li className="mx-8 my-4">
-            <Image src="/navigation.png" alt="" width={60} height={60} />
+            <Image src="/clients/luxe.png" alt="" width={150} height={150} />
           </li>
           <li className="mx-8 my-4">
-            <Image src="/linkedin.png" alt="" width={60} height={60} />
+            <Image
+              src="/clients/mavefund.png"
+              alt=""
+              width={150}
+              height={150}
+            />
           </li>
           <li className="mx-8 my-4">
-            <Image src="/java-script.png" alt="" width={60} height={60} />
+            <Image
+              src="/clients/manjushree.png"
+              alt=""
+              width={150}
+              height={150}
+            />
           </li>
           <li className="mx-8 my-4">
-            <Image src="/html-5.png" alt="" width={60} height={60} />
-          </li>
-          <li className="mx-8 my-4">
-            <Image src="/gitnub.png" alt="" width={60} height={60} />
-          </li>
-          <li className="mx-8 my-4">
-            <Image src="/envelope.png" alt="" width={60} height={60} />
-          </li>
-          <li className="mx-8 my-4">
-            <Image src="/engineering.png" alt="" width={60} height={60} />
-          </li>
-          <li className="mx-8 my-4">
-            <Image src="/css.png" alt="" width={60} height={60} />
+            <Image src="/clients/uandme.png" alt="" width={150} height={150} />
           </li>
         </ul>
       </div>
